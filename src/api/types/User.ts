@@ -20,9 +20,4 @@ export class User {
     })
     public pets: Pet[];
 
-    @Field({
-        description: 'The details of the user.',
-    })
-    public details: { first_name: string; last_name: string; };
-
 }
